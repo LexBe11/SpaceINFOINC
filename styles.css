@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Black background */
+    color: #ffffff;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 100 100"><circle cx="2" cy="2" r="1.5" fill="white" /><circle cx="10" cy="5" r="1" fill="white" /><circle cx="20" cy="20" r="2" fill="white" /><circle cx="30" cy="30" r="1.2" fill="white" /><circle cx="40" cy="10" r="1.7" fill="white" /><circle cx="50" cy="50" r="1.3" fill="white" /><circle cx="60" cy="15" r="1.8" fill="white" /><circle cx="70" cy="40" r="1.5" fill="white" /><circle cx="80" cy="30" r="1" fill="white" /><circle cx="90" cy="60" r="2" fill="white" /><circle cx="95" cy="90" r="1.2" fill="white" /></svg>');
+    background-size: 100px 100px; /* Adjust size to control star density */
+    background-repeat: repeat;
+}
+
+header {
+    background-color: #003366;
+    padding: 1em;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+h2 {
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 0.5em;
+}
+
+.theory, .prediction, .fact {
+    margin-bottom: 1em;
+}
+
+footer {
+    background-color: #003366;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
